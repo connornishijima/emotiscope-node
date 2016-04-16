@@ -1,0 +1,36 @@
+import nltk
+import re
+
+def extractAlphanumeric(InputString):
+    from string import ascii_letters, digits
+    return "".join([ch for ch in InputString if ch in (ascii_letters + digits + " ")])
+
+def getMinimum(text):
+	text = text.replace(",",".")
+	text = text.replace("!",".")
+	text = text.replace("?",".")
+	text = text.replace(";",".")
+	text = text.replace(":",".")
+	text = text.split(".")
+	sents = []
+	for sent in text:
+		sent = sent.strip()
+		sent = sent.lower()
+		sent = extractAlphanumeric(sent)
+		if len(sent) > 1:
+			sents.append(sent)
+	return sents
+
+terms = ["mountain dew"]
+input = "I can't believe that Mountain Dew tastes so good! It's like it was made just for me."
+
+sents = getMinimum(input)
+outSents = []
+
+for sent in sents:
+	for term in terms:
+		if term in sent:
+			outSents.append(sent)
+
+sents = outSents
+

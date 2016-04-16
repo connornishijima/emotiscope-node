@@ -1,0 +1,27 @@
+{
+  "api": {
+    "access_token": "281156364-gZuWLYgrDe1mBRxlWcQAK4dnSAIRTBFSGaz5AZcd", 
+    "access_token_secret": "z1Dvp40kj4XPb2hSexAyE0O2hBsF2kpsfumiNIDxI", 
+    "consumer_key": "CAzXtcWQEsuWKklMGeBgA", 
+    "consumer_secret": "v9NZyyb3w3dROxNbQBpHvyrQQ8V3VuEWeIM0VI6rSoc"
+  }, 
+  "bad_hashtags": [
+    "#ImWithHer"
+  ], 
+  "campaign_id": "bernie-sanders", 
+  "email": "connornishijima@gmail.com", 
+  "end_time": 1462060800, 
+  "good_hashtags": [
+    "#FeelTheBern"
+  ], 
+  "interval_minutes": 10, 
+  "nickname": "Bernie Sanders", 
+  "running": true, 
+  "screen_name": "@BernieSanders", 
+  "secret": "qwertyuiop", 
+  "start_time": 1459970829, 
+  "terms": [
+    "bernie", 
+    "sanders"
+  ]
+}
